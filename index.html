@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodie - Food Delivery Website</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar wrapper">
+      <a href="#" class="logo">foodie.</a>
+      <ul class="navlist" id="navlist">
+        <li><a href="#">home</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contacts</a></li>
+      </ul>
+      <div class="desktop-action">
+        <a href="#" class="card-icon" id="cart-toggle">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="card-value">0</span>
+        </a>
+        <a href="#" class="btn"> sign in &nbsp;<i class="fa-solid fa-arrow-right-to-bracket"></i> </a>
+        <a href="#" class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Cart Panel -->
+    <div class="cart-table" id="cart-table">
+      <h4>Your Cart</h4>
+      <ul class="cart-list"></ul>
+      <div class="total-container">
+        <span>Total:</span>
+        <span class="cart-total">$0</span>
+      </div>
+      <div class="btn-container">
+        <a href="#" class="close-btn">Close</a>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section wrapper">
+      <div class="content">
+        <h1>Enjoy Your <br> Delicious <span>Food</span></h1>
+        <p>We will fill your tummy with delicious food and fast delivery!</p>
+        <a href="#" class="btn">Order Now</a>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="image/" alt="Delivery Boy" />
+      </div>
+    </section>
+  </main>
+
+  <!-- Services Section -->
+  <section class="services-section wrapper">
+    <div class="text-center">
+      <h5>our services</h5>
+      <h2>How does it work</h2>
+    </div>
+    <div class="services">
+      <div class="service-card">
+        <img src="image/" alt="Easy to order" />
+        <h3>Easy to order</h3>
+        <p>You only need a few steps to order food</p>
+      </div>
+      <div class="service-card">
+        <img src="image/" alt="Fast delivery" />
+        <h3>Fast delivery</h3>
+        <p>Delivery is always on time — even faster!</p>
+      </div>
+      <div class="service-card">
+        <img src="image/" alt="Best quality" />
+        <h3>Best quality</h3>
+        <p>Not only fast — our quality is number one</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section wrapper">
+    <div class="text-center">
+      <h5>Our menu</h5>
+      <h2>The Most Popular</h2>
+    </div>
+    <div class="menu-list">
+      <div class="menu-card">
+        <div class="menu-images"><img src="image/" alt="Coffee" /></div>
+        <h4>Coffee</h4>
+        <h4 class="price">$12</h4>
+        <a href="#" class="btn add-to-cart">Add to Cart</a>
+      </div>
+      <div class="menu-card">
+        <div class="menu-images"><img src="image/" alt="Chicken Sandwich" /></div>
+        <h4>Chicken Sandwich</h4>
+        <h4 class="price">$10</h4>
+        <a href="#" class="btn add-to-cart">Add to Cart</a>
+      </div>
+      <div class="menu-card">
+        <div class="menu-images"><img src="image/" alt="Brost" /></div>
+        <h4>Brost</h4>
+        <h4 class="price">$15</h4>
+        <a href="#" class="btn add-to-cart">Add to Cart</a>
+      </div>
+      <div class="menu-card">
+        <div class="menu-images"><img src="image/" alt="Cake" /></div>
+        <h4>Cake</h4>
+        <h4 class="price">$18</h4>
+        <a href="#" class="btn add-to-cart">Add to Cart</a>
+      </div>
+      <div class="menu-card">
+        <div class="menu-images"><img src="image/" alt="Spicy Zinger Burger" /></div>
+        <h4>Spicy Zinger Burger</h4>
+        <h4 class="price">$14</h4>
+        <a href="#" class="btn add-to-cart">Add to Cart</a>
+      </div>
+      <div class="menu-card">
+        <div class="menu-images"><img src="image/" alt="Pizza" /></div>
+        <h4>Pizza</h4>
+        <h4 class="price">$20</h4>
+        <a href="#" class="btn add-to-cart">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review Section -->
+  <section class="review-section wrapper">
+    <div class="review-container">
+      <div class="image-container"><img src="image/" alt="Delivery Boy" /></div>
+      <div class="review-text">
+        <h5>Our Review</h5>
+        <h2>What They Say?</h2>
+      </div>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" id="review-slider">
+        <!-- Example review slides -->
+        <div class="swiper-slide">
+          <p>"Best delivery ever! Hot and fresh."</p>
+          <h4>- John Doe</h4>
+        </div>
+        <div class="swiper-slide">
+          <p>"Amazing food and fast service."</p>
+          <h4>- Jane Smith</h4>
+        </div>
+        <div class="swiper-slide">
+          <p>"Highly recommend foodie for quick meals."</p>
+          <h4>- Ali Khan</h4>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!-- Subscribe Section -->
+  <section class="subscribe-section wrapper">
+    <div class="subscribe-container">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get updates on the latest deals and offers.</p>
+      <form id="subscribe-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>foodie.</h3>
+        <p>Delivering happiness one bite at a time. Order your favorite meals easily!</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <p>Email: info@foodie.com</p>
+        <p>Phone: +123 456 7890</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
